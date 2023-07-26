@@ -57,18 +57,23 @@ body {
 }
 
 .square {
-  background: #fff;
+  background: black;
   border: 1px solid #999;
+  color: red;
   float: left;
+  height: 34px;
+  width: 34px;
+  text-align: center;
   font-size: 24px;
   font-weight: bold;
   line-height: 34px;
-  height: 34px;
+  padding-right: 0;
   margin-right: -1px;
   margin-top: -1px;
-  padding: 0;
-  text-align: center;
-  width: 34px;
+}
+
+.box {
+  color: red;
 }
 
 .board-row:after {
